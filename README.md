@@ -4,8 +4,6 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server and create .env:
 
-env variables
-
 
 
 ```bash
@@ -22,6 +20,31 @@ pnpm dev
 bun dev
 ```
 
+Env Variables.
+
+DATABASE_URL="postgresql://...." #Seu banco de dados
+
+BETTER_AUTH_SECRET="" Escolha um código
+
+BETTER_AUTH_URL=http://localhost:3000 #Trocar para o seu host
+
+
+#Auth para registrar ou logar com o Google,
+
+GOOGLE_CLIENT_ID="" 
+GOOGLE_CLIENT_SECRET=""
+
+NEXT_PUBLIC_APP_URL="http://localhost:3000" #Trocar para o seu host
+
+#Stripe
+
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY="" chave publicável Stripe
+
+STRIPE_PRODUCT_ID="" Código do seu produto na Stripe
+
+STRIPE_PUBLIC_ESSENTIAL_PLAN_PRICE_ID="" Código do seu plano na strip
+
+STRIPE_WEBHOOK_SECRET="" #Webhook stripe
 
 Funcionalidades.
 
