@@ -2,7 +2,15 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+First, run the development server and create .env:
+
+env variables
+
+
+
+```bash
+npx drizzle-kit push
+```
 
 ```bash
 npm run dev
@@ -13,6 +21,14 @@ pnpm dev
 # or
 bun dev
 ```
+
+
+Funcionalidades.
+
+1. ✅ Título: Doutor Agenda.  
+2. ✅ Sistema para agendamentos de consultas com dashboard para acompanhar estatísticas.  
+3. ✅ Tecnologias usadas: NextJs, ORM drizzle, better auth e autenticação com o google.  
+4. ✅ Link do deploy: https://doutor-agenda-ywd4.vercel.app/
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
